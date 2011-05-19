@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9629D58D1384F9B300D1A8DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9629D58C1384F9B300D1A8DE /* UIKit.framework */; };
+		9629D58F1384F9B300D1A8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9629D58E1384F9B300D1A8DE /* Foundation.framework */; };
+		9629D5911384F9B300D1A8DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9629D5901384F9B300D1A8DE /* CoreGraphics.framework */; };
+		9629D5971384F9B300D1A8DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9629D5951384F9B300D1A8DE /* InfoPlist.strings */; };
+		9629D59A1384F9B300D1A8DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9629D5991384F9B300D1A8DE /* main.m */; };
+		9629D59D1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9629D59C1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.m */; };
+		9629D5A01384F9B300D1A8DE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9629D59E1384F9B300D1A8DE /* MainWindow.xib */; };
+		9629D5A31384F9B300D1A8DE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9629D5A21384F9B300D1A8DE /* RootViewController.m */; };
+		9629D5A61384F9B300D1A8DE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9629D5A41384F9B300D1A8DE /* RootViewController.xib */; };
+		9629D5AF1384F9DF00D1A8DE /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9629D5AD1384F9DF00D1A8DE /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9629D5881384F9B300D1A8DE /* SampleNavigationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleNavigationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9629D58C1384F9B300D1A8DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9629D58E1384F9B300D1A8DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9629D5901384F9B300D1A8DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9629D5941384F9B300D1A8DE /* SampleNavigationApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleNavigationApp-Info.plist"; sourceTree = "<group>"; };
+		9629D5961384F9B300D1A8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9629D5981384F9B300D1A8DE /* SampleNavigationApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleNavigationApp-Prefix.pch"; sourceTree = "<group>"; };
+		9629D5991384F9B300D1A8DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9629D59B1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleNavigationAppAppDelegate.h; sourceTree = "<group>"; };
+		9629D59C1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleNavigationAppAppDelegate.m; sourceTree = "<group>"; };
+		9629D59F1384F9B300D1A8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9629D5A11384F9B300D1A8DE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9629D5A21384F9B300D1A8DE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9629D5A51384F9B300D1A8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		9629D5AE1384F9DF00D1A8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9629D5851384F9B300D1A8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9629D58D1384F9B300D1A8DE /* UIKit.framework in Frameworks */,
+				9629D58F1384F9B300D1A8DE /* Foundation.framework in Frameworks */,
+				9629D5911384F9B300D1A8DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9629D57D1384F9B300D1A8DE = {
+			isa = PBXGroup;
+			children = (
+				9629D5921384F9B300D1A8DE /* SampleNavigationApp */,
+				9629D58B1384F9B300D1A8DE /* Frameworks */,
+				9629D5891384F9B300D1A8DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9629D5891384F9B300D1A8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9629D5881384F9B300D1A8DE /* SampleNavigationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9629D58B1384F9B300D1A8DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9629D58C1384F9B300D1A8DE /* UIKit.framework */,
+				9629D58E1384F9B300D1A8DE /* Foundation.framework */,
+				9629D5901384F9B300D1A8DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9629D5921384F9B300D1A8DE /* SampleNavigationApp */ = {
+			isa = PBXGroup;
+			children = (
+				9629D5AC1384F9DE00D1A8DE /* iPad */,
+				9629D59B1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.h */,
+				9629D59C1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.m */,
+				9629D59E1384F9B300D1A8DE /* MainWindow.xib */,
+				9629D5A11384F9B300D1A8DE /* RootViewController.h */,
+				9629D5A21384F9B300D1A8DE /* RootViewController.m */,
+				9629D5A41384F9B300D1A8DE /* RootViewController.xib */,
+				9629D5931384F9B300D1A8DE /* Supporting Files */,
+			);
+			path = SampleNavigationApp;
+			sourceTree = "<group>";
+		};
+		9629D5931384F9B300D1A8DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9629D5941384F9B300D1A8DE /* SampleNavigationApp-Info.plist */,
+				9629D5951384F9B300D1A8DE /* InfoPlist.strings */,
+				9629D5981384F9B300D1A8DE /* SampleNavigationApp-Prefix.pch */,
+				9629D5991384F9B300D1A8DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9629D5AC1384F9DE00D1A8DE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				9629D5AD1384F9DF00D1A8DE /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9629D5871384F9B300D1A8DE /* SampleNavigationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9629D5A91384F9B300D1A8DE /* Build configuration list for PBXNativeTarget "SampleNavigationApp" */;
+			buildPhases = (
+				9629D5841384F9B300D1A8DE /* Sources */,
+				9629D5851384F9B300D1A8DE /* Frameworks */,
+				9629D5861384F9B300D1A8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleNavigationApp;
+			productName = SampleNavigationApp;
+			productReference = 9629D5881384F9B300D1A8DE /* SampleNavigationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9629D57F1384F9B300D1A8DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9629D5821384F9B300D1A8DE /* Build configuration list for PBXProject "SampleNavigationApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9629D57D1384F9B300D1A8DE;
+			productRefGroup = 9629D5891384F9B300D1A8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9629D5871384F9B300D1A8DE /* SampleNavigationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9629D5861384F9B300D1A8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9629D5971384F9B300D1A8DE /* InfoPlist.strings in Resources */,
+				9629D5A01384F9B300D1A8DE /* MainWindow.xib in Resources */,
+				9629D5A61384F9B300D1A8DE /* RootViewController.xib in Resources */,
+				9629D5AF1384F9DF00D1A8DE /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9629D5841384F9B300D1A8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9629D59A1384F9B300D1A8DE /* main.m in Sources */,
+				9629D59D1384F9B300D1A8DE /* SampleNavigationAppAppDelegate.m in Sources */,
+				9629D5A31384F9B300D1A8DE /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9629D5951384F9B300D1A8DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9629D5961384F9B300D1A8DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9629D59E1384F9B300D1A8DE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9629D59F1384F9B300D1A8DE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9629D5A41384F9B300D1A8DE /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9629D5A51384F9B300D1A8DE /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		9629D5AD1384F9DF00D1A8DE /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9629D5AE1384F9DF00D1A8DE /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9629D5A71384F9B300D1A8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9629D5A81384F9B300D1A8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9629D5AA1384F9B300D1A8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleNavigationApp/SampleNavigationApp-Prefix.pch";
+				INFOPLIST_FILE = "SampleNavigationApp/SampleNavigationApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9629D5AB1384F9B300D1A8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleNavigationApp/SampleNavigationApp-Prefix.pch";
+				INFOPLIST_FILE = "SampleNavigationApp/SampleNavigationApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9629D5821384F9B300D1A8DE /* Build configuration list for PBXProject "SampleNavigationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9629D5A71384F9B300D1A8DE /* Debug */,
+				9629D5A81384F9B300D1A8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9629D5A91384F9B300D1A8DE /* Build configuration list for PBXNativeTarget "SampleNavigationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9629D5AA1384F9B300D1A8DE /* Debug */,
+				9629D5AB1384F9B300D1A8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9629D57F1384F9B300D1A8DE /* Project object */;
+}
